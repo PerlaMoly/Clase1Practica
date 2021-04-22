@@ -8,7 +8,7 @@ namespace PrimeraClase20211C
     {
         static void Main(string[] args)
         {
-            //EjercicioSumarNros();
+            //EjercicioSumarNros(); prueba git  21042021
 
             EjercicioOrdenarNombres.Ejecutar();
 
