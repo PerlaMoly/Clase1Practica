@@ -8,7 +8,7 @@ namespace PrimeraClase20211C
     {
         static void Main(string[] args)
         {
-            //EjercicioSumarNros();
+            //EjercicioSumarNrosP();
 
             EjercicioOrdenarNombres.Ejecutar();
 
