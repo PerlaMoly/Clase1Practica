@@ -1,6 +1,8 @@
 ﻿using Logica;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace PrimeraClase20211C
 {
@@ -11,8 +13,13 @@ namespace PrimeraClase20211C
             //EjercicioSumarNros();
 
             EjercicioOrdenarNombres.Ejecutar();
-
+            EjercicioOrdenarNombres.Ejecutar2();
         }
+
+
+        
+
+
 
         private static void EjercicioSumarNros()
         {

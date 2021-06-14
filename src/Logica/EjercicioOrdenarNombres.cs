@@ -8,11 +8,11 @@ namespace Logica
 {
     public class EjercicioOrdenarNombres
     {
-        static readonly int cantNombres = 5;
+       static readonly int cantNombres = 5;
 
         public static void Ejecutar()
         {
-            List<string> nombres = new List<string>();
+           /* List<string> nombres = new List<string>();
 
             for (int i = 0; i < cantNombres; i++)
             {
@@ -27,6 +27,28 @@ namespace Logica
             for (int i = 0; i < nombres.Count; i++)
             {
                 Console.WriteLine(nombres[i]);
+            }
+           */
+        }
+
+        public static void Ejecutar2()
+        {
+ 
+            List<string> nombres = new List<string>();
+
+            for (int i = 0; i < cantNombres; i++)
+            {
+                Console.WriteLine($"Ingrese Nombre {i + 1}: ");
+                string nombre = Console.ReadLine();
+                nombres.Add(nombre);
+            }
+            nombres.Sort();
+            Console.WriteLine();
+            Console.WriteLine("La lista de nombres ordenada con Foreach es:");
+
+            foreach (string item in nombres)
+            {
+                Console.WriteLine(nombres);
             }
         }
     }
